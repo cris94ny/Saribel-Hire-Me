@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #FEDAD4;
+  cursor: url(flower.ico),auto;
+}
+
+.header{
+  width:99%;
+  height:210px;
+  background-color:lightgrey;
+}
+.mario{
+  opacity:0;
+  width:100%;
+  height:210px;
+}
+.mario:hover{
+  opacity:1;
+}
+.border{
+  background-color: lightpink;
+  border: 2px dashed black;
+  margin:25px;
+  width:525px;
+}
+.border:hover{
+  opacity:1;
+}
+.test{
+  height:180px;
+  width:250px;
+  float:left;
+}
+.caption{
+  width:250px;
+  padding:1px;
+}
+div{
+  float:left;
+  padding:5px;
+}
+.facts{
+  background-color: lightpink;
+  border: 2px dashed black;
+  margin:25px;
+  width:525px;
+  float:right;
+}
+.hobbies{
+  background-color: lightpink;
+  border: 2px dashed black;
+  margin:25px;
+  width:205px;
+  float:right;
+}
+.rollover{
+  width:500px;
+  float:right;
+}
+.poppop{
+  float:right;
+  cursor:grab;
+}
+td{
+  cursor:grabbing;
+}
+.skills{
+  background-color: lightpink;
+  border: 2px dashed black;
+  margin:25px;
+  width:205px;
+}
